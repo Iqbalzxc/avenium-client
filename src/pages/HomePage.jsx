@@ -55,7 +55,7 @@ const HomePage = () => {
           <Row>
             {layanan.map((layanan) => {
               return (
-                <Col key={layanan.id} className="shadow rounded-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay={layanan.delay}
+                <Col key={layanan.id} className="shadow rounded-3"
                 >
                   <img
                     src={layanan.image}
@@ -68,7 +68,7 @@ const HomePage = () => {
             })}
           </Row>
           <Row>
-            <Col className="text-center" data-aos="fade-left">
+            <Col className="text-center">
               <button className="btn btn-success rounded-5 btn-lg" onClick={() => navigate("/layanan")}>
                 Lihat Semua Layanan
                 <i className="fa-solid fa-chevron-right ms-1"></i>

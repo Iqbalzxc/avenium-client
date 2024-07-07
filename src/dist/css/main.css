@@ -20,8 +20,6 @@
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   z-index: 999;
-  animation-name: hinge;
-  animation-duration: 2s;
 }
 
 .navbar.color-active {
