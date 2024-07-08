@@ -21,7 +21,6 @@ const FooterKomponen = () => {
           <Link to="">Home</Link>
           <Link to="layanan">Layanan</Link>
           <Link to="cara-order">Cara Order</Link>
-          <Link to="testimoni">Testimoni</Link>
           <Link to="faq">FAQ</Link>
           <Link to="syarat-ketentuan">Syarat & Ketentuan</Link>
           </Col>
