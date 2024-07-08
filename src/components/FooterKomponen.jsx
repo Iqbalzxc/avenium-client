@@ -27,7 +27,7 @@ const FooterKomponen = () => {
           <Col lg="4" className="mt-lg-0 mt-5">
           <h5 className="fw-bold mb-2">Media Sosial :</h5>
           <div className="social">
-            <a href="https://instagram.com/dijoki.official" className="text-decoration-none text-black">Instagram : @DIJOKI.OFFICIAL</a>
+            <a href="https://instagram.com/dijoki.ofc" className="text-decoration-none text-black">Instagram : @DIJOKI.OFFICIAL</a>
           </div>
           </Col>
         </Row>
