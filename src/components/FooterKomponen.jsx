@@ -25,10 +25,10 @@ const FooterKomponen = () => {
             <h5 className="fw-bold mb-2">Media Sosial :</h5>
             <div className="social">
               <a
-                href="https://instagram.com/avenium.ofc"
+                href="https://instagram.com/aveniumofc"
                 className="text-decoration-none text-black"
               >
-                Instagram : @AVENIUM.OFC
+                Instagram : @AVENIUMOFC
               </a>
             </div>
           </Col>
