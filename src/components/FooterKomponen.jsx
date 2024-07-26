@@ -7,33 +7,37 @@ const FooterKomponen = () => {
       <Container>
         <Row className="d-flex justify-content-between">
           <Col lg="5">
-            <h3 className="fw-bold">DiJoKi</h3>
-            <p className="desc">
-              Terbaik untuk Anda
-            </p>
+            <h3 className="fw-bold">Avenium</h3>
+            <p className="desc">Terbaik untuk Anda</p>
             <div className="no mt-3">
-              <Link className="text-decoration-none">
-              </Link>
+              <Link className="text-decoration-none"></Link>
             </div>
           </Col>
           <Col className="d-flex flex-column col-lg-2 col mt-lg-0 mt-5">
-          <h5 className="fw-bold">Menu</h5>
-          <Link to="">Home</Link>
-          <Link to="layanan">Layanan</Link>
-          <Link to="cara-order">Cara Order</Link>
-          <Link to="faq">FAQ</Link>
-          <Link to="syarat-ketentuan">Syarat & Ketentuan</Link>
+            <h5 className="fw-bold">Menu</h5>
+            <Link to="">Home</Link>
+            <Link to="layanan">Layanan</Link>
+            <Link to="cara-order">Cara Order</Link>
+            <Link to="faq">FAQ</Link>
+            <Link to="syarat-ketentuan">Syarat & Ketentuan</Link>
           </Col>
           <Col lg="4" className="mt-lg-0 mt-5">
-          <h5 className="fw-bold mb-2">Media Sosial :</h5>
-          <div className="social">
-            <a href="https://instagram.com/dijoki.ofc" className="text-decoration-none text-black">Instagram : @DIJOKI.OFC</a>
-          </div>
+            <h5 className="fw-bold mb-2">Media Sosial :</h5>
+            <div className="social">
+              <a
+                href="https://instagram.com/avenium.ofc"
+                className="text-decoration-none text-black"
+              >
+                Instagram : @AVENIUM.OFC
+              </a>
+            </div>
           </Col>
         </Row>
         <Row>
           <Col>
-            <p className="text-center px-md-0 px-3">&copy; Copyright {new Date().getFullYear()} by DiJoKi</p>
+            <p className="text-center px-md-0 px-3">
+              &copy; Copyright {new Date().getFullYear()} by Avenium
+            </p>
           </Col>
         </Row>
       </Container>

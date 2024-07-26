@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
-
 import { navLinks } from "../data/index";
 import { NavLink } from "react-router-dom";
 
@@ -19,13 +18,14 @@ const NavBarKomponen = () => {
   useEffect(() => {
     changeBackgroundColor();
     window.addEventListener("scroll", changeBackgroundColor);
-  })
+  });
 
   return (
     <div>
-      <Navbar expand="lg" className={changeColor ? 'color-active' : ''}>
+      <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
         <Container>
-          <Navbar.Brand href="#home" className="fs-3 fw-bold">DiJoKi
+          <Navbar.Brand href="#home" className="fs-3 fw-bold">
+            Avenium
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -38,7 +38,8 @@ const NavBarKomponen = () => {
                       className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""
                       }
-                    end >
+                      end
+                    >
                       {page.text}
                     </NavLink>
                   </div>
@@ -47,7 +48,14 @@ const NavBarKomponen = () => {
             </Nav>
 
             <div className="text-center">
-            <a href="https://wa.me/6285295454278" className="btn btn-danger rounded-1" target="_blank" rel="noopener noreferrer">Hubungi Kami</a>
+              <a
+                href="https://wa.me/6285295454278"
+                className="btn btn-danger rounded-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hubungi Kami
+              </a>
             </div>
           </Navbar.Collapse>
         </Container>

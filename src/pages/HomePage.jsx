@@ -27,7 +27,7 @@ const HomePage = () => {
                 Kami Solusinya!
               </h1>
               <p className="mb-4">
-                Kami adalah layanan jasa yang menawarkan kualitas terbaik dalam membantu tugas-tugas anda sampai selesai!
+                Kami adalah layanan jasa yang menawarkan kualitas terbaik dalam mengajari anda untuk membantu menyelesaikan tugas atau pelajaran yang belum bisa dipahami
               </p>
               <button className="btn btn-danger btn-lg rounded rounded-1 me-2 mb-xs-0 mb-2" onClick={() => navigate('/cara-order')}>
                 Order Disini
